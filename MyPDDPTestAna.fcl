@@ -1,0 +1,14 @@
+BEGIN_PROLOG
+
+test_proto_analysis:
+{
+  module_type: "MyPDDPTestAna"   #links the fhicl file to the analysis module using the name you gave your analyzer class
+
+  PFParticleLabel: "pandora"
+  TrackModuleLabel: "pandoraTrack"
+  HitModuleLabel: "pandora"
+  SpacePointModuleLabel: "pandora"
+  CalorimetryLabel: "pandoracalo"
+}
+
+END_PROLOG
